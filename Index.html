@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="finalProject.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bubble Dodger</h1>
+        <p>
+            <A id="link" href="../assignment1/assignment1.html">Home Page</A>
+        </p>
+        <h3 id="rulesHeader">Rules:</h3>
+        <div class="rules">
+            <p>
+                Avoid the bubbles at all cost, if they collide with your cursor, you lose!
+            </p>
+            <p>
+                Power-ups spawn every 30 seconds! Look for the blue-squares for a chance to delete up to 10 bubbles from
+                the
+                match!
+            </p>
+            <p>
+                Get the power-ups quickly though, they don't last forever!
+            </p>
+            <p>
+                See how long you can stay alive!
+            </p>
+        </div>
+        <div class="highScoreDisplay">
+            <p>The current high score is held by...</p>
+            <h3 id="highScore"></h3>
+        </div>
+    </div>
+    <div class="gameTools">
+        <div class="left">
+            <h1>
+                <span id="min">00</span> :
+                <span id="sec">00</span> :
+                <span id="milisec">00</span>
+            </h1>
+        </div>
+        <button class="right" id="button">Start Game</button>
+    </div>
+    <div class="container">
+        <canvas id="myCanvas"></canvas>
+        <div class="leaderboard">
+            <h1>Leaderboard</h1>
+            <table id="table">
+                <tr>
+                    <th>Player</th>
+                    <th>Time</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="finalProject.js"></script>
+</body>
+
+</html>

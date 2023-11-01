@@ -1,0 +1,128 @@
+/* COLOURS GOTTEN FROM https://www.w3schools.com/colors/colors_picker.asp */
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: 	#d8d9da;
+}
+
+.rules{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right:30%;
+    margin-bottom: 5%;
+}
+
+#highScore, .highScoreDisplay{
+    
+    background-color: rgb(93, 151, 190);
+    font-weight:bold;
+}
+
+.highScoreDisplay{
+    border: 1.5px solid lightcoral;
+    font-size: 18;
+    margin-left: 21.2%;
+    margin-right: 21.2%;
+}
+
+#rulesHeader{
+    margin-top:5%;
+    font-size: 25px;
+
+}
+
+.gameTools{
+    display:flex; /* as observed here https://stackoverflow.com/questions/19089933/how-to-position-two-elements-side-by-side-using-css */
+    justify-content:center;
+    font-family: 'Roboto', sans-serif;
+    color: 	#d8d9da;
+    
+}
+
+.gameTools .left {
+    flex:0.2;
+    text-align: center;
+    border: 2px solid lightcoral;
+}
+
+.gameTools .right {
+    flex: 0.2;
+}
+
+
+#link:link{
+    color:lightblue;
+    font-weight: bold;
+}
+
+#link:visited{
+    color: lightcoral;
+}
+
+#link:hover{
+    color:rgb(255, 97, 97);
+}
+
+/* Button styling reference https://www.w3schools.com/css/css3_buttons.asp */
+#button{
+
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.leaderboard{
+    width: 80%;
+    background-color: rgb(219, 103, 103);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* reference: https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_span1 */
+    font-size: 16px;
+    border: 0.5px solid white;
+}
+/* https://www.w3schools.com/css/css_table.asp and https://www.w3schools.com/html/html_tables.asp ----> styling info for tables */
+#table{
+    margin:0 auto;
+    text-align: left;
+    background-color: rgb(219, 103, 103);
+    width: 75%;
+    /* border: 0.5px solid white; */
+    border-collapse: collapse;
+    
+}
+
+th{
+    font-size: 20px;
+    text-align: center;
+}
+th, td{
+    padding: 8px;
+}
+td{
+    border: 0.5px solid white;
+    background-color: rgb(97, 162, 206);
+
+}
+
+#myCanvas{
+    background: rgb(209, 209, 209);
+    /* Found at ---> https://stackoverflow.com/questions/10214558/change-canvas-color-using-css/10214645 */
+}
+
+
